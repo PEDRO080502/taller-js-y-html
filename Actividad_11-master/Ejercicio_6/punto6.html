@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>punto6</title>
+
+   
+
+    <style>
+
+    ol { counter-reset: item }
+    li { display: block}
+    li:before { content: counters(item, ".") " "; counter-increment: item}
+    
+    body {
+        background-color: rgba(95, 107, 107, 0.171);
+    }
+    
+    
+    #lista1 {
+
+        background-color: rgb(238, 248, 255);
+        color: rgb(57, 68, 235);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 25%;
+        position: relative;
+        left: 35%;
+        border: 2px solid #000;        
+    }
+    h1 {
+        color: blue;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    
+
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+    <div id="lista1">    
+        <h1>LISTA</h1>  
+         <ol>
+             <li>General reference</li>
+             <li>Culture an the arts
+                 <ol>
+                     <li>Literature</li>
+                     <li>Mythology</li>
+                     <li>Art an the arts
+                         <ol>
+                             <li>Literature</li>
+                             <li>Mythology</li>
+                         </ol>
+                     </li>
+                     <li>Entertainment and recreation
+                         <ol>
+                             <li>Games</li>
+                             <li>Sports</li>
+                         </ol>
+                     </li>
+                     <li>Food and Drink</li>
+                     <li>Mass media</li>
+                 </ol>
+             </li>      
+             <li>Geography and places
+                 <ol>
+                     <li>Natural Geographical factures
+                         <ol>
+                             <li>Landforms</li>
+                             <li>Bodies of water</li>
+                         </ol>
+                     </li>
+                     <li>Mammade Geographical factures
+                         <ol>
+                             <li>Countries and region</li>
+                             <li>Places</li>
+                             <li>Settlenents</li>
+                         </ol>
+                     </li>
+                 </ol>
+             </li>
+             <li>History and events</li>
+             <li>Mathematics and logic</li>
+             <li>Natural and physical sciences
+                 <ol>
+                     <li>Biology</li>
+                     <li>Physical sciences</li>
+                 </ol>
+             </li>
+             <li>People</li>
+             <li>Region and belief systems</li>
+             <li>Society and social sciences
+                 <ol>
+                     <li>Archaeology</li>
+                     <li>Linguistics</li>
+                     <li>Social intitutions
+                         <ol>
+                             <li>Infrastructure</li>
+                             <li>Economy and business</li>
+                             <li>Education</li>
+                             <li>Government and politics</li>
+                             <li>Law</li>
+                         </ol>
+                     </li>
+                     <li>War</li>               
+                 </ol>
+             </li>
+             <li>Technology and applied sciences
+                 <ol>
+                     <li>Aerospace</li>
+                     <li>Buildings</li>
+                     <li>Energy</li>
+                     <li>Medicine</li>
+                     <li>Maritime</li>
+                     <li>Military</li>
+                     <li>Technology</li>
+                 </ol>
+             </li>
+             <li>Miscellaneous</li>
+            
+         </ol>
+         
+    </nav>
+
+</body>
+</html>
